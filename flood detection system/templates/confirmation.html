@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>confirmation</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="body">
+        <div class="confirm">
+            <h3>You have successfully registered</h3>
+        <p>We will keep you updated if necessay </p><br><br>
+        <p>You will be redirected to Home page in less than 1 minute</p>
+        <script>
+        var timer = setTimeout(function(){window.location='{{url_for("main")}}'}, 10000);
+        </script>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,238 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/*dashboard.html*/
+.jumbotron{
+    widows: 200px;
+    height: 200px;
+    text-align: center;
+    font-family: 'Times New Roman';  
+    color: red;
+    font-size: 50px;
+    text-shadow: 2px 2px black;
+}
+.row{
+    justify-content: center;
+    
+}
+/*login page*/
+
+.main{
+    height: 100vh;
+    width: 100vw;
+    
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    background-size: cover; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scrollbar-width: none;
+    overflow-x: hidden; 
+}
+span{
+    border-bottom: 1px solid white;
+    margin-top: 30px;
+}
+
+.box{
+   
+    width: 300px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 0px 20px white;
+    height: 48vh;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rows{
+    padding: 7px;
+    font-size: 15px;
+   
+}
+.form-label{
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    color: white;
+
+}
+.form-input{
+    height: 40px;
+    width: 250px;
+    background-color: transparent;
+    border-bottom: 2px solid white;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+::placeholder{
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    
+}
+.form-submit{
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    border-top: none;
+}
+
+.form-submit:hover{
+    background-color: black;
+    color: white;
+}
+/*home page*/
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://www.ready.gov/sites/default/files/2020-04/Flooded-neighborhood_1.jpg");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+
+
+.header{
+    text-align: center;
+    padding: 2%;
+}
+.head h1{
+ font: bold;
+ font-size: 40px;
+ text-decoration: underline;
+}
+form{
+    font-size: 15px;
+}
+.box-btn{
+    border-radius: 10px;
+    align-items: center;
+    width: 410px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 0px 20px gray;
+    justify-content: center;
+    margin-left: 35%;
+    margin-top: 1%;
+    
+
+
+}
+.bolder {
+    justify-content: space-between;
+    text-decoration: none;
+    padding-top: auto;
+    font-family: 'Times New Roman';
+   
+}
+.bolder label{
+    font: bold;
+}
+.bolder input{
+border: 2px solid gray;
+font-size: 19px;
+text-decoration: none;
+list-style: none;
+}
+.confirm{
+    text-align: center;
+    padding: 70px;
+    position: absolute;
+    transform: translate(50%,50%);
+    top: 15%;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+margin-left: 10%;
+padding-top: 1%;
+}
+button{
+    background-color: red;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    border-color:black;
+    margin-top: 1%;
+}
+.login {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    background-color: transparent;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.menu{
+    float: flex;
+}
+.menu ul {
+ text-align: right;
+}
+
+.logins a{
+text-decoration: none;
+list-style: none;
+color: black;
+transition: 0.5s ease-in-out;
+}
+.logins a:hover{
+    color: blue;
+}
+.logins { 
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.errorBody{
+    background-size: cover; 
+    
+    
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+
+}
+.errorPage{
+    margin-top: 20%;
+    color: red;
+    font-size: 70px;
+    animation: blinker 2s linear infinite;
+    font-family: 'Times New Roman';
+    text-shadow: 2px 2px black;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+@keyframes blinker {
+    50%{
+        opacity: 0;
+    }
+}
+
+.Erow{
+    font-size: 20px;
+    font-family: 'Times New Roman';
+}
